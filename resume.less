@@ -1,0 +1,34 @@
+@border-color:#DEC9C9;
+@bg-color:#A4C7E6;
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Microsoft Yahei';
+	background: #fff;
+}
+#container{
+
+	width: 210mm;
+	height: 300mm;
+	border:1px solid @border-color;
+	margin: auto;
+		section{
+			width: 100%;
+			min-height: 200px;
+			border:1px solid @border-color;
+			position: relative;
+			header{
+				color:#fff;
+				width: 150px;
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+				border:1px solid @border-color;
+				background: @bg-color;
+				margin: auto;
+				border-radius: 5px;
+			}
+		}
+}

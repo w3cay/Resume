@@ -1,0 +1,31 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: 'Microsoft Yahei';
+  background: #fff;
+}
+#container {
+  width: 210mm;
+  height: 300mm;
+  border: 1px solid #dec9c9;
+  margin: auto;
+}
+#container section {
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid #dec9c9;
+  position: relative;
+}
+#container section header {
+  color: #fff;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #dec9c9;
+  background: #a4c7e6;
+  margin: auto;
+  border-radius: 5px;
+}
