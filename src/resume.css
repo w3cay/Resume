@@ -1,4 +1,5 @@
 * {
+  padding: 0px;
   margin: 0px;
 }
 html {
@@ -10,23 +11,31 @@ body {
 h1 {
   font-size: 4rem;
 }
-a {
+.en {
+  font-family: arial;
+}
+.blod {
+  font-size: 1.8rem;
+}
+.item {
+  border: 1px solid ;
+  display: inline-block;
+  border-radius: 0mm 3mm ;
+  padding: 0mm 1mm ;
+  margin-right: 2mm;
+}
+.tags {
   color: #fff;
+  background: #7CA3BB;
+  border-radius: 3mm;
+  padding: 0mm 2mm;
+  font-size: 1rem;
 }
 p {
-  margin-top: 15px;
+  margin-top: 18px;
   font-size: 1.6rem;
   padding: 0px 20px;
   line-height: 2.4rem;
-}
-ul {
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  width: 95mm;
-  list-style-type: circle;
-}
-li {
-  margin-top: 10px;
 }
 #container {
   color: #4e4343;
@@ -39,11 +48,20 @@ li {
   margin: auto;
 }
 .left {
-  width: 100mm;
+  width: 95mm;
   height: 100%;
   float: left;
   background: #7CA3BB;
-  padding-top: 25px;
+  padding-top: 11mm;
+  color: #fff;
+}
+.left ul {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  list-style-type: circle;
+}
+.left li {
+  margin-top: 10px;
 }
 .left #tou {
   text-align: center;
@@ -55,27 +73,91 @@ li {
   height: 49mm;
 }
 .left #head-info {
-  color: #fff;
   text-align: center;
 }
+.left #head-info a {
+  text-decoration: none;
+  color: #fff;
+}
+.left #head-info #want {
+  font-size: 1.8rem;
+  margin: 5mm auto;
+}
+.left #skills ul {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  list-style-type: none;
+  width: 75mm;
+  margin: 15mm auto;
+  overflow: hidden;
+  padding-left: 0px;
+}
+.left #skills ul li {
+  margin-top: 15px;
+  text-align: right;
+}
+.left #skills ul li span:nth-child(2) {
+  display: inline-block;
+  width: 50mm;
+  height: 3mm;
+  margin: 0mm 5mm 0mm 5mm;
+  background: #7B7070;
+  border-radius: 3mm;
+}
+.left #skills ul li span:nth-child(2):after {
+  content: '';
+  display: inline-block;
+  float: left;
+  height: 3mm;
+  background: #fff;
+  border-radius: 3mm;
+}
+.left #skills ul li:nth-child(1) span:nth-child(2):after {
+  width: 50%;
+}
+.left #skills ul li:nth-child(2) span:nth-child(2):after {
+  width: 60%;
+}
+.left #skills ul li:nth-child(3) span:nth-child(2):after {
+  width: 75%;
+}
+.left #skills ul li:nth-child(4) span:nth-child(2):after {
+  width: 60%;
+}
+.left #skills ul li:nth-child(5) span:nth-child(2):after {
+  width: 50%;
+}
+.left #skills ul li:nth-child(6) span:nth-child(2):after {
+  width: 75%;
+}
+.left #skills ul li:nth-child(7) span:nth-child(2):after {
+  width: 50%;
+}
 .right {
-  width: 110mm;
+  width: 115mm;
   float: right;
   height: 100%;
-  padding-top: 25px;
+  padding-top: 10mm;
 }
 .right section {
   width: 100%;
   min-height: 200px;
-  border-bottom: 1px dotted #dec9c9;
   overflow: hidden;
-  padding-bottom: 20px;
+  padding-bottom: 10mm;
+}
+.right section p {
+  margin-top: 10px;
+}
+.right section a {
+  text-decoration: none;
 }
 .right section header {
-  font-size: 2.4rem;
   width: 200px;
   height: 30px;
-  line-height: 30px;
   text-align: center;
   margin: auto;
+}
+.right section header h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
 }
