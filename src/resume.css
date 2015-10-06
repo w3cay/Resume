@@ -31,6 +31,10 @@ h1 {
   padding: 0mm 2mm;
   font-size: 1rem;
 }
+.tags a {
+  text-decoration: underline;
+  color: #fff;
+}
 p {
   margin-top: 18px;
   font-size: 1.6rem;
@@ -83,12 +87,15 @@ p {
   font-size: 1.8rem;
   margin: 5mm auto;
 }
+.left #head-info p {
+  margin-top: 22px;
+}
 .left #skills ul {
   font-size: 1.6rem;
   line-height: 2.4rem;
   list-style-type: none;
   width: 75mm;
-  margin: 15mm auto;
+  margin: 7mm auto;
   overflow: hidden;
   padding-left: 0px;
 }
@@ -150,6 +157,7 @@ p {
 }
 .right section a {
   text-decoration: none;
+  color: #427594;
 }
 .right section header {
   width: 200px;
