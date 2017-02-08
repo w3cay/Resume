@@ -59,6 +59,14 @@ p {
   padding-top: 11mm;
   color: #fff;
 }
+.left #comment p {
+  border: 1px dashed #fff;
+  border-radius: 5px;
+  line-height: 1.75;
+  width: 75%;
+  margin: 55px auto 0;
+  padding: 10px;
+}
 .left ul {
   font-size: 1.6rem;
   line-height: 2.4rem;
