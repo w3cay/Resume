@@ -166,6 +166,8 @@ p {
 .right section a {
   text-decoration: none;
   color: #427594;
+  border-bottom: 1px dashed #427594;
+  padding-bottom: 3px;
 }
 .right section header {
   width: 200px;
