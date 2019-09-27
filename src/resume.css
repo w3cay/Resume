@@ -10,6 +10,7 @@ body {
 }
 h1 {
   font-size: 4rem;
+  text-align: center;
 }
 .en {
   font-family: arial;
@@ -18,14 +19,28 @@ h1 {
   font-size: 1.8rem;
 }
 .item {
-  border: 1px solid ;
-  display: inline-block;
-  border-radius: 0mm 3mm ;
-  padding: 0mm 1mm ;
-  margin-right: 2mm;
+  /* border: 1px solid ; */
+  /* display: block; */
+  /* border-radius: 0mm 3mm ; */
+  /* padding: 0mm 1mm ; */
+  /* font-weight: bold;
+  font-s */
+  font-size: 16px;
+  margin-right: 5px;
+
+}
+.base-item {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+
+.base-item p {
+  width: 100%;
+  font-size: 16px;
+  /* text-align: center; */
 }
 .tags {
-  color: #fff;
+  color: #333;
   background: #7CA3BB;
   border-radius: 3mm;
   padding: 0mm 2mm;
@@ -33,39 +48,58 @@ h1 {
 }
 .tags a {
   text-decoration: underline;
-  color: #fff;
+  color: #333;
 }
 p {
-  margin-top: 18px;
-  font-size: 1.6rem;
-  padding: 0px 20px;
-  line-height: 2.4rem;
+  /* margin-top: 18px; */
+  font-size: 14px;
+  /* padding: 0px 20px; */
+  line-height: 2.6rem;
 }
+
+.job-exp p {
+  margin-bottom: 20px;
+}
+
 #container {
-  color: #4E4343;
+  color: #333;
   width: 210mm;
   height: 300mm;
   overflow: hidden;
   position: relative;
   box-shadow: 0px 0px 20px  #645555;
-  background: #f0f0f0;
+  background: #fff;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 35px; */
+  /* padding: 35px 30px 35px 30px; */
+  /* flex-direction: column; */
 }
 .left {
-  width: 95mm;
+  width: 310px;
   height: 100%;
-  float: left;
-  background: #7CA3BB;
-  padding-top: 11mm;
+  background: #0073b1;
+  padding: 35px 15px 20px 20px;
+  color: #fff;
+
+}
+
+.left a {
   color: #fff;
 }
+
+.left  p{
+  font-size: 14px;
+}
+
 .left #comment p {
   border: 1px dashed #fff;
   border-radius: 0 30px 0 30px;
   line-height: 1.75;
-  width: 75%;
-  margin: 55px auto 0;
-  padding: 10px;
+  /* width: 75%; */
+  /* margin: 55px auto 0; */
+  /* padding: 10px; */
   text-align: justify;
 }
 .left ul {
@@ -76,6 +110,12 @@ p {
 .left li {
   margin-top: 10px;
 }
+
+.left h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
 .left #tou {
   text-align: center;
   margin-bottom: 20px ;
@@ -86,18 +126,20 @@ p {
   height: 49mm;
 }
 .left #head-info {
-  text-align: center;
+  /* text-align: center; */
+  /* padding: 0px 20px; */
+  margin-bottom: 40px;
 }
 .left #head-info a {
   text-decoration: none;
-  color: #fff;
+
 }
 .left #head-info #want {
   font-size: 1.8rem;
   margin: 5mm auto;
 }
 .left #head-info p {
-  margin-top: 22px;
+  margin-bottom: 16px;
 }
 .left #skills ul {
   font-size: 1.6rem;
@@ -150,10 +192,11 @@ p {
   width: 50%;
 }
 .right {
-  width: 115mm;
-  float: right;
-  height: 100%;
-  padding-top: 10mm;
+  flex: 1;
+  /* float: right; */
+  /* border-left: 2px dashed #ccc3c3; */
+
+  padding: 35px 20px 20px 20px;
 }
 .right section {
   width: 100%;
@@ -166,8 +209,8 @@ p {
 }
 .right section a {
   text-decoration: none;
-  color: #427594;
-  border-bottom: 1px dashed #427594;
+  color: #0073b1;
+  border-bottom: 1px dashed #0073b1;
   padding-bottom: 3px;
 }
 .right section header {
@@ -176,7 +219,7 @@ p {
   text-align: center;
   margin: auto;
 }
-.right section header h2 {
-  font-size: 2.4rem;
+ h2 {
+  font-size: 20px;
   font-weight: 500;
 }
