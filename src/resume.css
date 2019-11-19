@@ -79,7 +79,7 @@ p {
 .left {
   width: 310px;
   height: 100%;
-  background: #0073b1;
+  background: #2b87b9;
   padding: 35px 15px 20px 20px;
   color: #fff;
 
@@ -207,10 +207,10 @@ p {
 .right section p {
   margin-top: 10px;
 }
-.right section a {
+.right section .title {
   text-decoration: none;
-  color: #0073b1;
-  border-bottom: 1px dashed #0073b1;
+  color: #2b87b9;
+  /* border-bottom: 1px dashed #2b87b9; */
   padding-bottom: 3px;
 }
 .right section header {
